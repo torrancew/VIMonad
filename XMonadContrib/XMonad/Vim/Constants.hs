@@ -71,5 +71,5 @@ getScriptsDir = getXMonadDir >>= return . (++"/scripts")
 getBitmapsDir :: MonadIO m => m String
 getBitmapsDir = getXMonadDir >>= return . (++"/dzen2")
 
-myTerminal = "xterm"
+myTerminal = "urxvt"
 
